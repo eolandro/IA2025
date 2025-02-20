@@ -1,0 +1,22 @@
+# Información del Equipo
+
+# INTELIGENCIA ARTIFICIAL
+
+# PROF.VALDES ARTEAGA LEONARDO
+
+# 20/02/25
+---
+Equipo: Magenta 
+
+    - NoControl: '20590261'
+      Nombre: Fabian Antonio Ledesma Hernández
+    - NoControl: '18590263'
+      Nombre: Gerardo Daniel Victoria Morales
+    - NoControl: '19590087'
+      Nombre: Gerardo Gaeta Gomez
+
+
+
+Podcast IA 
+
+https://www.canva.com/design/DAGfrMpIoBE/sGJa099VlgNAa2lWYO6B5A/watch?utm_content=DAGfrMpIoBE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb3fb93bb3f
