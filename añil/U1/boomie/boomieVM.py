@@ -15,7 +15,7 @@ class BoomieVM():
             [1,0,1,0,1,0,1,0],
             [0,0,0,0,0,0,0,0],
             [0,0,0,0,0,2,0,0],
-            [0,0,0,0,0,0,0,0]
+            [0,0,0,0,0,0,0,2]
         ]
         self.fila, self.columna = 0,0
         # self.lineaEjecutando = ""
@@ -88,23 +88,23 @@ class BoomieVM():
 
                 if Dir == "r":
                     if (self.columna)+1 == len(self.Mapa) \
-                        or (self.Mapa[self.fila][self.columna +1] == 1): 
+                        or (self.Mapa[self.fila][self.columna +1] != 0): 
                         self.Registros["DX"] = 1
                     
                 elif Dir == "l":
                     if (self.columna)-1 == -1 \
-                        or (self.Mapa[self.fila][self.columna -1] == 1): 
+                        or (self.Mapa[self.fila][self.columna -1] != 0): 
                         self.Registros["DX"] = 1
                         
                 elif Dir == "u":
                     if (self.fila)-1 == -1 \
-                        or (self.Mapa[self.fila -1][self.columna] == 1): 
+                        or (self.Mapa[self.fila -1][self.columna] != 0): 
                         self.Registros["DX"] = 1
 
                         
                 elif Dir == "d":
                     if (self.fila)+1 == len(self.Mapa) \
-                        or (self.Mapa[self.fila +1][self.columna] == 1):
+                        or (self.Mapa[self.fila +1][self.columna] != 0):
                         self.Registros["DX"] = 1
 
 

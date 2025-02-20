@@ -1,4 +1,4 @@
-add 0x00 0x04 AX
+add 0x00 0x00 AX
 
 MOVERDERECHA:
 obs r
@@ -25,6 +25,5 @@ mov u
 je 0x00 0x00 MOVERARRIBA
 
 VERIFICA:
-sub AX 0x01 AX
-jne AX 0x00 MOVERDERECHA
-
+add AX 0x01 AX
+jne AX 0x04 MOVERDERECHA
