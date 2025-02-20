@@ -1,0 +1,23 @@
+# Información del Equipo
+
+# INTELIGENCIA ARTIFICIAL
+
+# PROF.VALDES ARTEAGA LEONARDO
+
+# 19 DE FEBRERO DEL 2025
+---
+Equipo: Magenta 
+
+    - NoControl: '20590261'
+      Nombre: Fabian Antonio Ledesma Hernández
+    - NoControl: '18590263'
+      Nombre: Gerardo Daniel Victoria Morales
+    - NoControl: '19590087'
+      Nombre: Gerardo Gaeta Gomez
+
+
+
+LINEA DEL TIEMPO HISTORIA DE LA IA
+
+
+https://view.genially.com/67b68c236632f19b518ffc4e/presentation-linea-del-tiempo-historia-de-la-ia
