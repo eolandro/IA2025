@@ -1,0 +1,8 @@
+Unix Binary Packages
+Many Linux and BSD distributions have their own packages of Pygame. These may have an older version of Pygame than the wheels, but have been carefully tested with other packages in that distribution.
+
+Debian/Ubuntu/Mint
+sudo apt-get install python3-pygame
+
+Fedora/Red hat
+sudo yum install python3-pygame
