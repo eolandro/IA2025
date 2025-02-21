@@ -1,0 +1,24 @@
+div 0x14 0xa AX
+MOVDER:
+obs r
+je DX 0x01 MOVABA
+mov r
+je 0x00 0x00 MOVDER
+MOVABA:
+obs d
+je DX 0x01 MOVIZQ
+mov d
+je 0x00 0x00 MOVABA
+MOVIZQ:
+obs l
+je DX 0x01 MOVARR
+mov l
+je 0x00 0x00 MOVIZQ
+MOVARR:
+obs u
+je DX 0x01 CICLO
+mov u
+je 0x00 0x00 MOVARR
+CICLO:
+sub AX 0x01 AX
+jne AX 0x00 MOVDER
