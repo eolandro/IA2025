@@ -29,12 +29,17 @@ def main(archivo_codigo):
             print(f"#: {linea}")
             R = linea_codigo(linea)
             print(f"Lexical and Syntactic Analysis: {R}")
+            
 
             if R:
                 Boome.ejecutar_linea(linea)
                 if not linea.startswith("je,jne"):
                     Boome.PC += 1
                 print(Boome)
+
+            else:
+                print(" -- SYNTAX ERROR --")
+                break
 
             input("Presiona enter para continuar...")
 

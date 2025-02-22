@@ -18,7 +18,10 @@ def opera_senact(SensorAct,Dir):
         Dir in ["r","l","u","d"]
     ])
 
+#creating the hex pattern using a raw string
+hex_pattern = r"0x([0-9a-f][0-9a-f])"
 # label_pattern = r"([0-9A-Fa-f]*:"
+
 def opera_salto(jump,z1,z2,label):
     return all([
         jump in ["je","jne"],
@@ -27,8 +30,6 @@ def opera_salto(jump,z1,z2,label):
         dlabel(f"{label}:")
     ])
 
-#creating the hex pattern using a raw string
-hex_pattern = r"0x([0-9a-f][0-9a-f])"
 
 def opera_mat(Op,Z1,Z2,Z3):
     return all([
