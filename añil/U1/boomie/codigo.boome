@@ -1,4 +1,12 @@
-add 0x00 0x00 AX
+add 0x00 0x01 AX
+BUCLE:
+add AX 0x01 AX
+jne AX 0x0a BUCLE
+mov r
+jmp BUCLE
+
+
+add 0x00 0x01 AX
 
 MOVERDERECHA:
 obs r

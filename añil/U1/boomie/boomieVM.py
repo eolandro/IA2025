@@ -111,13 +111,16 @@ class BoomieVM():
             case [Ins,Z1,Z2,Z3]: #4 arguments
 
                 if Z1.startswith("0x"):
-                    Z1 = int(Z1.split("x")[1])
+                    Z1 = int(Z1.split("x")[1],16)
                 else:
                     Z1 = self.Registros[Z1]
+
+
                 if Z2.startswith("0x"):
-                    Z2 = int(Z2.split("x")[1])
+                    Z2 = int(Z2.split("x")[1],16)
                 else:
                     Z2 = self.Registros[Z2]
+
 
                 print(f"{Ins} {Z1} {Z2} {Z3}")
 
