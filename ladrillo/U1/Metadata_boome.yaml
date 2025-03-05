@@ -1,0 +1,20 @@
+Equipo:
+- NoControl: '20590284'
+  Nombre: Salvador Ramírez Hernández
+- NoControl: '20590227'
+  Nombre: Mauricio Alvarez Moreno
+Calificacion: 15
+Informe:
+- ID: R001
+  Ponderacion: 15
+  Reactivo: "\nRepresentacion adecuada en consola\n"
+  Cumplio: No
+- ID: R002
+  Ponderacion: 15
+  Reactivo: "\nEjecucion completa del programa\n"
+  Cumplio: No
+- ID: R003
+  Ponderacion: 15
+  Reactivo: "\nEstructura del codigo\n"
+  Cumplio: Si
+  Captura: Si

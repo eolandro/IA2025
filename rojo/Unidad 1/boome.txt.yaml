@@ -1,0 +1,10 @@
+Reactivos:
+- ID: R001
+  Ponderacion: 15
+  Reactivo: "\nRepresentacion adecuada en consola\n"
+- ID: R002
+  Ponderacion: 15
+  Reactivo: "\nEjecucion completa del programa\n"
+- ID: R003
+  Ponderacion: 15
+  Reactivo: "\nEstructura del codigo\n"

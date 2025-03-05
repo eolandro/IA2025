@@ -20,6 +20,7 @@ def main(archivo_codigo):
         indice = 0
         for linea in lineas_codigo:
             linea = linea.strip()
+            print(linea)
             if dLabel(linea):
                 boome.etiquetas[linea[:-1]] = indice
             indice += 1
