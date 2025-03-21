@@ -1,0 +1,99 @@
+A:
+  pregunta: "¿Cuántos lados tiene?"
+  respuestas:
+    "4": "AA"
+    "3": "AB"
+    "infinitos": "AC"
+    "0": "AC"
+    "5": "AD"
+    "6": "AE"
+    "10": "AF"
+
+AA:
+  pregunta: "¿Cuántos son del mismo tamaño?"
+  respuestas:
+    "4": "AAA"
+    "2": "AAB"
+AB:
+  pregunta: "¿Todos sus lados son iguales?"
+  respuestas:
+    "si": "ABA"
+    "no": "ABB"
+AC:
+  pregunta: "¿Parece una rueda o una moneda?"
+  respuestas:
+    "si": "ACA"
+    "no": "ACB"
+AD:
+  figura: "Pentagono"
+AE:
+  figura: "Hexagono"
+AF:
+  figura: "Decagono"
+
+AAA:
+  pregunta: "¿Tiene forma de un dado o una caja perfecta?"
+  respuestas:
+    "si": "AAAA"
+    "no": "AAAB"
+AAB:
+  pregunta: "¿Tiene forma de televisor o de una hoja de papel?"
+  respuestas:
+    "si": "AABA"
+    "no": "AABB"
+
+ABA: 
+  figura : "triangulo equilátero"
+
+ABB:
+  pregunta : "¿Tiene 2 lados iguales?"
+  respuestas: 
+    "si": "ABBA"
+    "no": "ABBB"
+ACA:
+  figura: "Circulo"
+
+ACB:
+   figura: "Elipse"
+
+AAAA:
+  figura: "Cuadrado"
+
+AAAB:
+  figura: "Rombo"
+
+AABA:
+  figura: "Rectángulo"
+
+AABB:
+  pregunta: "¿Todos los lados opuestos son paralelos?"
+  respuestas:
+    "si": "AABBA"
+    "no": "AABBB"
+
+ABBA:
+  figura: "triagulo isósceles"
+
+ABBB:
+  pregunta: "¿Los tres lados son diferentes?"
+  respuestas: 
+    "si": "ABBBA"
+    "no": "ABBBB"
+
+
+
+AAABA:
+  figura: "Rombo"
+
+ABBBA: 
+  figura: "Triangulo escaleno"
+
+ABBBB: 
+  figura: "Triangulo rectángulo"
+
+AABBA:
+  figura: "Romboide"
+
+AABBB:
+  figura: "Trapecio"
+
