@@ -1,0 +1,144 @@
+encabezado:
+- Animal
+- Gris
+- Pico
+- Alas
+- Bigotes
+- Colmillos
+- Sociable
+- Hervivoro
+- Insectivoro
+- Branqueas
+- Terrestre
+- Total
+filas:
+- nombre: Cachalote
+  caracteristicas:
+    Gris: 1
+    Pico: 0
+    Alas: 0
+    Bigotes: 0
+    Colmillos: 1
+    Sociable: 0
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+  Total: '1000100000'
+- nombre: Pinguino
+  caracteristicas:
+    Gris: 0
+    Pico: 1
+    Alas: 1
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 1
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+  Total: '0110010000'
+- nombre: Aguila
+  caracteristicas:
+    Gris: 0
+    Pico: 1
+    Alas: 1
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 0
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+  Total: '0110000000'
+- nombre: Licaon
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 1
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0001110001'
+- nombre: Perro
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 1
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0001110001'
+- nombre: Panda
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 0
+    Hervivoro: 1
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0001101001'
+- nombre: Gato
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 0
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0001100001'
+- nombre: Capibara
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 0
+    Sociable: 1
+    Hervivoro: 1
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0001011001'
+- nombre: Axolote
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 0
+    Sociable: 0
+    Hervivoro: 0
+    Insectivoro: 0
+    Branqueas: 1
+    Terrestre: 0
+  Total: '0001000010'
+- nombre: Camaleon
+  caracteristicas:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 0
+    Hervivoro: 0
+    Insectivoro: 1
+    Branqueas: 0
+    Terrestre: 1
+  Total: '0000000101'
