@@ -1,0 +1,83 @@
+emails:
+  - mensaje: |
+      Hola Pedro,
+
+      Tu reserva en el Hotel Sol y Mar está confirmada para el 5 de abril.
+      Puedes gestionar tu estancia aquí: https://hotel-solymar.com/reserva123
+
+      ¡Gracias por elegirnos!
+
+  - mensaje: |
+      ¡Atención! 🚨
+
+      Hemos detectado un intento de inicio de sesión sospechoso en tu cuenta de correo.
+      Verifica tu identidad urgentemente aquí: https://seguridad-email-alerta.com
+
+      No ignores este aviso.
+
+  - mensaje: |
+      Estimado cliente,
+
+      Su pago de la factura de electricidad está pendiente. Evite cortes accediendo a su cuenta y pagando ahora: https://electricidadsegura.com/pago
+
+      Gracias por su pronta acción.
+
+  - mensaje: |
+      ¡Oferta exclusiva!
+
+      Compra un iPhone 15 Pro con un 70% de descuento solo por hoy.
+      Obtén el tuyo aquí: https://megaofertas-shop.com/iphone
+
+  - mensaje: |
+      Hola Ana,
+
+      Te recordamos tu cita con el dentista el 12 de marzo a las 3:00 PM.
+      Confirma tu asistencia aquí: https://dentalpremium.com/citas
+
+      Saludos,
+      Clínica Dental Premium
+
+  - mensaje: |
+      ¡No pierdas esta oportunidad! 🎁
+
+      Gana un viaje todo incluido a Cancún completando esta sencilla encuesta.
+      Participa aquí: https://viaje-premium.com/encuesta
+
+  - mensaje: |
+      Estimado usuario,
+
+      Su cuenta de Facebook será suspendida en 24 horas si no verifica su identidad.
+      Hágalo aquí: https://seguridad-facebook-alerta.com
+
+  - mensaje: |
+      Hola Miguel,
+
+      Tu auto ya está listo en nuestro taller. Puedes recogerlo en cualquier momento.
+      Más detalles aquí: https://autocentro.com/orden456
+
+      Gracias por confiar en nosotros.
+
+  - mensaje: |
+      ¡Atención cliente especial!
+
+      Has sido elegido para recibir una tarjeta de regalo de $500 en Amazon.
+      Reclama la tuya aquí: https://regalos-amazon-promo.com
+
+  - mensaje: |
+      Hola Sofía,
+
+      Tu paquete ha llegado a la oficina de correos.
+      Revisa el estado aquí: https://correosexpress.com/envio789
+
+      Gracias por usar nuestro servicio.
+spam:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
