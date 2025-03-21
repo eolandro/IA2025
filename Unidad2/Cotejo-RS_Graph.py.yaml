@@ -1,0 +1,7 @@
+Reactivos:
+- ID: R001
+  Ponderacion: 10
+  Reactivo: "\nLeer el archivo del grafo\n"
+- ID: R002
+  Ponderacion: 10
+  Reactivo: "\nMinimizacion de If (No tener un arbol basado en if)\n"

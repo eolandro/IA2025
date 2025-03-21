@@ -1,0 +1,7 @@
+Reactivos:
+- ID: R001
+  Ponderacion: 10
+  Reactivo: "\nLeer Tablero de Boome desde archivo\n"
+- ID: R002
+  Ponderacion: 10
+  Reactivo: "\nImprimir la probabilidad de bayes por detector positivo\n"

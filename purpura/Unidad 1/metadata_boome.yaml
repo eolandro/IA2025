@@ -1,0 +1,22 @@
+Equipo:
+- NoControl: '21590076'
+  Nombre: Eréndira Najera Aguilar
+- NoControl: '21590396'
+  Nombre: Ángel Javier Puga Reyes
+Calificacion: 45
+Informe:
+- ID: R001
+  Ponderacion: 15
+  Reactivo: "\nRepresentacion adecuada en consola\n"
+  Cumplio: Si
+  Captura: Si
+- ID: R002
+  Ponderacion: 15
+  Reactivo: "\nEjecucion completa del programa\n"
+  Cumplio: Si
+  Captura: Si
+- ID: R003
+  Ponderacion: 15
+  Reactivo: "\nEstructura del codigo\n"
+  Cumplio: Si
+  Captura: Si

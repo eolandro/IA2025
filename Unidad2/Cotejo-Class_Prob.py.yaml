@@ -1,0 +1,13 @@
+Reactivos:
+- ID: R001
+  Ponderacion: 5
+  Reactivo: "\nCarga y genera archivo de conocimiento  Entrenador.py\n"
+- ID: R002
+  Ponderacion: 10
+  Reactivo: "\nCarga y genera archivo de conocimiento  DeTokenizador.py\n"
+- ID: R003
+  Ponderacion: 10
+  Reactivo: "\nCarga y genera archivo de conocimiento clasificador.py\n"
+- ID: R003
+  Ponderacion: 5
+  Reactivo: "\nCarga archivo de conocimiento y calcula eficiencia eficiencia.py\n"

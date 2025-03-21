@@ -1,0 +1,23 @@
+Equipo:
+- NoControl: '21590281'
+  Nombre: Luis Fernando González González
+- NoControl: '21590479'
+  Nombre: Andres Martín Sinecio
+
+Calificacion: 45
+Informe:
+- ID: R001
+  Ponderacion: 15
+  Reactivo: "\nRepresentacion adecuada en consola\n"
+  Cumplio: Si
+  Captura: Si
+- ID: R002
+  Ponderacion: 15
+  Reactivo: "\nEjecucion completa del programa\n"
+  Cumplio: Si
+  Captura: Si
+- ID: R003
+  Ponderacion: 15
+  Reactivo: "\nEstructura del codigo\n"
+  Cumplio: Si
+  Captura: Si

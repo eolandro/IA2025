@@ -1,0 +1,10 @@
+Reactivos:
+- ID: R001
+  Ponderacion: 10
+  Reactivo: "\nGenerar archivo inicializador.py\n"
+- ID: R002
+  Ponderacion: 10
+  Reactivo: "\nGenerar archivo entrenador.py\n"
+- ID: R003
+  Ponderacion: 10
+  Reactivo: "\nadivinar el animal con el minimo de preguntas en adivinar.py\n"
