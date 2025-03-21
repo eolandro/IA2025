@@ -1,0 +1,67 @@
+arbolopcion:
+  - [A, Ninguno, AA]
+  - [A, Tres, AB]
+  - [A, Cuatro, AC]
+  - [A, Cinco, AD]
+  - [A, Seis, AE]
+  - [A, Diez, AF]
+  
+  - [AA, Si, AAA]
+  - [AA, No, AAB]
+  
+  - [AB, Si, ABA]
+  - [AB, No, ABB]
+  
+  - [ABB, Si, ABBA]
+  - [ABB, No, ABBB]
+  
+  - [ABBB, Si, ABBBA]
+  - [ABBB, No, ABBBB]
+  
+  - [AC, Si, ACA]
+  - [AC, No, ACB]
+  
+  - [ACA, Si, ACAA]
+  - [ACA, No, ACAB]
+  
+  - [ACB, Si, ACBA]
+  - [ACB, No, ACBB]
+  
+  - [ACBB, Si, ACBBB]
+  - [ACBB, No, ACBBC]
+  
+  - [ACBBC, Si, ACBBCA]
+  - [ACBBC, No, ACBBCB]
+  
+preguntas:
+  - [A, "¿Cuántos lados posee tu figura? (Escríbelo en palabras)"]
+  
+  - [AA, "¿La figura parece una pelota? (sí/no)"]
+  - [AAA, "Círculo"]
+  - [AAB, "Elipse"]
+  
+  - [AB, "¿Todos los lados tienen la misma longitud? (sí/no)"]
+  - [ABA, "Triángulo equilátero"]
+  - [ABB, "¿Los lados tienen longitudes distintas? (sí/no)"]
+  
+  - [ABBA, "Triángulo escaleno"]
+  - [ABBB, "¿Tu figura parece una escuadra? (sí/no)"]
+  
+  - [ABBBA, "Triángulo rectángulo"]
+  - [ABBBB, "Triángulo isósceles"]
+  
+  - [AC, "¿Los cuatro lados de la figura son idénticos en medida? (sí/no)"]
+  
+  - [ACA, "¿Tu figura parece un diamante? (sí/no)"]
+  - [ACAA, "Rombo"]
+  - [ACAB, "Cuadrado"]
+  
+  - [ACB, "¿Tiene forma de una tienda de campaña? (sí/no)"]
+  - [ACBA, "Trapecio"]
+  - [ACBB, "¿Tu figura parece una caja aplastada? (sí/no)"]
+  - [ACBBB, "Rectángulo"]
+  - [ACBBC, "Romboide"]
+  
+  - [AD, "Pentágono"]
+  - [AE, "Hexágono"]
+  - [AF, "Decágono"]

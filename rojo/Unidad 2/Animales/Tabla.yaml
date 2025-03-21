@@ -1,0 +1,121 @@
+Animales:
+  Cachalote:
+    Gris: 1
+    Pico: 0
+    Alas: 0
+    Bigotes: 0
+    Colmillos: 1
+    Sociable: 0
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+    Puntaje: 544
+  Pingüino:
+    Gris: 0
+    Pico: 1
+    Alas: 1
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 1
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+    Puntaje: 400
+  Águila:
+    Gris: 0
+    Pico: 1
+    Alas: 1
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 0
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 0
+    Puntaje: 384
+  Licaon:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 1
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 113
+  Perro:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 1
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 113
+  Panda:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 0
+    Herbivoro: 1
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 105
+  Gato:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 1
+    Sociable: 0
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 97
+  Capibara:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 0
+    Sociable: 1
+    Herbivoro: 1
+    Insectivoro: 0
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 89
+  Axolote:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 1
+    Colmillos: 0
+    Sociable: 0
+    Herbivoro: 0
+    Insectivoro: 0
+    Branqueas: 1
+    Terrestre: 0
+    Puntaje: 66
+  Camaleon:
+    Gris: 0
+    Pico: 0
+    Alas: 0
+    Bigotes: 0
+    Colmillos: 0
+    Sociable: 0
+    Herbivoro: 0
+    Insectivoro: 1
+    Branqueas: 0
+    Terrestre: 1
+    Puntaje: 5
