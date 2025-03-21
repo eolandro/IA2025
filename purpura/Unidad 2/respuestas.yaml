@@ -1,0 +1,36 @@
+respuestas:
+  animales:
+    - cachalote
+    - pingüino
+    - águila
+    - gato
+    - perro
+    - licaón
+    - panda
+    - camaleón
+    - Axolote
+    - capibara
+  caracteristicas:
+    - es gris
+    - tiene pico
+    - tiene alas
+    - tiene bigotes
+    - tiene colmillos
+    - es sociable
+    - es hervíboro
+    - es insectívoro
+    - tiene branquias
+    - es terrestre
+  respuestas:
+    - [1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+    - [0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+    - [0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 1, 1, 0, 0, 0, 0, 1]
+    - [0, 0, 0, 1, 1, 1, 0, 0, 0, 1]
+    - [0, 0, 0, 1, 1, 1, 0, 0, 0, 1]
+    - [0, 0, 0, 1, 1, 0, 1, 0, 0, 1]
+    - [0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+    - [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    - [0, 0, 0, 1, 0, 1, 1, 0, 0, 1]
+animales_bits: {cachalote: 544, pingüino: 400, águila: 384, perro: 113, licaón: 113,
+  panda: 105, gato: 97, capibara: 89, Axolote: 66, camaleón: 5}
