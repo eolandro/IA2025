@@ -1,0 +1,84 @@
+- etiqueta: spam
+  mensaje: ¡Felicidades! Has sido seleccionado para ganar $1000 en efectivo. Haz clic
+    aquí.
+  probabilidad_media_no_spam: 0.3
+  probabilidad_media_spam: 0.35000000000000003
+- etiqueta: spam
+  mensaje: 'Oferta exclusiva: Obtén tres meses gratis de suscripción a nuestro servicio
+    premium.'
+  probabilidad_media_no_spam: 0.375
+  probabilidad_media_spam: 0.425
+- etiqueta: spam
+  mensaje: Tu cuenta ha sido bloqueada. Verifica tu identidad para restaurar el acceso.
+  probabilidad_media_no_spam: 0.24166666666666667
+  probabilidad_media_spam: 0.2833333333333333
+- etiqueta: spam
+  mensaje: ¡Increíble! Puedes ganar un iPad gratis completando esta encuesta.
+  probabilidad_media_no_spam: 0.3888888888888889
+  probabilidad_media_spam: 0.4222222222222222
+- etiqueta: spam
+  mensaje: Responde a este mensaje y obtén una oferta exclusiva por tiempo limitado.
+  probabilidad_media_no_spam: 0.375
+  probabilidad_media_spam: 0.4166666666666667
+- etiqueta: spam
+  mensaje: Tu suscripción ha expirado. Renueva ahora para evitar la pérdida de beneficios.
+  probabilidad_media_no_spam: 0.35000000000000003
+  probabilidad_media_spam: 0.39166666666666666
+- etiqueta: spam
+  mensaje: Haz clic aquí para reclamar tu premio antes de que expire la oferta.
+  probabilidad_media_no_spam: 0.3153846153846154
+  probabilidad_media_spam: 0.3692307692307692
+- etiqueta: spam
+  mensaje: Recibe un 75% de descuento en productos seleccionados. Oferta por tiempo
+    limitado.
+  probabilidad_media_no_spam: 0.375
+  probabilidad_media_spam: 0.4166666666666667
+- etiqueta: spam
+  mensaje: ¿Quieres perder peso rápido? Prueba este nuevo método milagroso sin dietas.
+  probabilidad_media_no_spam: 0.41818181818181815
+  probabilidad_media_spam: 0.4272727272727273
+- etiqueta: spam
+  mensaje: Tu cuenta bancaria ha sido suspendida. Haz clic aquí para restaurarla.
+  probabilidad_media_no_spam: 0.20909090909090908
+  probabilidad_media_spam: 0.2727272727272727
+- etiqueta: no spam
+  mensaje: Gracias por tu ayuda con el proyecto de la semana pasada, realmente lo
+    aprecio.
+  probabilidad_media_no_spam: 0.39999999999999997
+  probabilidad_media_spam: 0.37142857142857144
+- etiqueta: no spam
+  mensaje: Nos vemos el lunes para la presentación. No olvides traer los documentos.
+  probabilidad_media_no_spam: 0.43333333333333335
+  probabilidad_media_spam: 0.4166666666666667
+- etiqueta: no spam
+  mensaje: ¡Feliz cumpleaños! Espero que tengas un día increíble lleno de alegría.
+  probabilidad_media_no_spam: 0.4636363636363636
+  probabilidad_media_spam: 0.45454545454545453
+- etiqueta: no spam
+  mensaje: Hola, ¿podemos hablar sobre el informe del proyecto esta tarde?
+  probabilidad_media_no_spam: 0.38
+  probabilidad_media_spam: 0.35
+- etiqueta: no spam
+  mensaje: ¿Te gustaría reunirte este fin de semana para revisar el trabajo pendiente?
+  probabilidad_media_no_spam: 0.3666666666666667
+  probabilidad_media_spam: 0.2916666666666667
+- etiqueta: no spam
+  mensaje: Recibí tu correo y estoy revisando los archivos que me enviaste.
+  probabilidad_media_no_spam: 0.3909090909090909
+  probabilidad_media_spam: 0.38181818181818183
+- etiqueta: no spam
+  mensaje: Nos vemos mañana en la cafetería para hablar sobre la propuesta del cliente.
+  probabilidad_media_no_spam: 0.46923076923076923
+  probabilidad_media_spam: 0.46153846153846156
+- etiqueta: no spam
+  mensaje: Estoy planeando un viaje y quería saber si puedes acompañarme.
+  probabilidad_media_no_spam: 0.32999999999999996
+  probabilidad_media_spam: 0.31
+- etiqueta: no spam
+  mensaje: ¿Te gustaría unirte al equipo para trabajar en el nuevo proyecto de marketing?
+  probabilidad_media_no_spam: 0.33076923076923076
+  probabilidad_media_spam: 0.27692307692307694
+- etiqueta: no spam
+  mensaje: La cena de despedida de María es este jueves. ¿Te gustaría asistir?
+  probabilidad_media_no_spam: 0.4166666666666667
+  probabilidad_media_spam: 0.375

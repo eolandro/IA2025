@@ -1,0 +1,432 @@
+'10':
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+'14':
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+'3':
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+'90':
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ACCESO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ADICIONAL:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+AGRADECERTE:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+AHORA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.3
+AL:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ALGUNOS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ALLÍ:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+AM:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+AMAZON:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+AQUÍ:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+ARTÍCULOS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+AUMENTA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+AYUDA:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+AYUDARME:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+BAHAMAS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+BANDA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+CASA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+CHARLA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+CINE:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+CITA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+CLIC:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+COMENTARIOS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+COMPRA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+COMPROMETIDA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+CONTIGO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+COSTO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+CREO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+CUENTA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+DAME:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+DESCUENTO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+DINERO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+DISCUTIMOS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+DISPONIBLE:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+DOBLE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ENCANTARÍA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ENCONTRADO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ENTREGAR:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ENVÍA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ENVÍO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+EQUIPO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ESPERO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ESQUEMA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ESTABA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ESTOY:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ESTÁS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+EVENTO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+EVITAR:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+EXCLUSIVAS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+EXCLUSIVOS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+FAVOR:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+FIN:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+GANA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+GANANCIAS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+GANAR:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+GRATIS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+GUSTARÁN:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+GUSTARÍA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+HA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.1
+HAY:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+HAZ:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+HE:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+HISTORIA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+HOLA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+HOY:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+INFORMACIÓN:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+INFORME:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+INSCRÍBETE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+INTERESANTES:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+INVERSIÓN:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+IPHONE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+IR:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+JUEVES:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+MARTES:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+MATEMÁTICAS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+MAÑANA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ME:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+MENSAJE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+MUDANZA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+MÁS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+MÚSICA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+NECESITAS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.1
+NETWORKING:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+'NO':
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+NUESTRA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+NUESTRO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+NUEVA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+NUEVO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.1
+OBTENER:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+OBTÉN:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+OFERTAS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+OLVIDES:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+OPORTUNIDAD:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+PASADO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PELÍCULA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PENSANDO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PIENSAS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PM:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PODRÍAS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PRECIOS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+PRODUCTOS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.3
+PROGRAMACIÓN:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PROYECTO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+PRÓXIMO:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+QUERÍA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+QUIERO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+QUÉ:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+RECLAMAR:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REDUCIDOS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REGALO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REGISTRARTE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REGÍSTRATE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REPROGRAMADA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+RESPONDE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+REUNIÓN:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+REVISA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+REVISAR:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+RÁPIDO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+SABER:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+SELECCIONADOS:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+SEMANA:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+SERÁ:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+SIDO:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.1
+SITIO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+SOLO:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.2
+SUSPENSIÓN:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+TAREA:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+TARJETA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+TE:
+  probabilidad_no_spam: 0.3
+  probabilidad_spam: 0.0
+TENEMOS:
+  probabilidad_no_spam: 0.2
+  probabilidad_spam: 0.0
+TIENES:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+TU:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.2
+TUS:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.1
+VER:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+VERIFICA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+VERTE:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+VIAJE:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+VIERNES:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+WEB:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1
+ÁLBUM:
+  probabilidad_no_spam: 0.1
+  probabilidad_spam: 0.0
+ÚLTIMA:
+  probabilidad_no_spam: 0.0
+  probabilidad_spam: 0.1

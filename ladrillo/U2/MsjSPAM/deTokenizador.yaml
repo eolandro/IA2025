@@ -1,0 +1,44 @@
+- etiqueta_usuario: spam
+  mensaje: ¡Felicidades! Has sido seleccionado para ganar $1000 en efectivo. Haz clic
+    aquí.
+- etiqueta_usuario: spam
+  mensaje: 'Oferta exclusiva: Obtén tres meses gratis de suscripción a nuestro servicio
+    premium.'
+- etiqueta_usuario: spam
+  mensaje: Tu cuenta ha sido bloqueada. Verifica tu identidad para restaurar el acceso.
+- etiqueta_usuario: spam
+  mensaje: ¡Increíble! Puedes ganar un iPad gratis completando esta encuesta.
+- etiqueta_usuario: spam
+  mensaje: Responde a este mensaje y obtén una oferta exclusiva por tiempo limitado.
+- etiqueta_usuario: spam
+  mensaje: Tu suscripción ha expirado. Renueva ahora para evitar la pérdida de beneficios.
+- etiqueta_usuario: spam
+  mensaje: Haz clic aquí para reclamar tu premio antes de que expire la oferta.
+- etiqueta_usuario: spam
+  mensaje: Recibe un 75% de descuento en productos seleccionados. Oferta por tiempo
+    limitado.
+- etiqueta_usuario: spam
+  mensaje: ¿Quieres perder peso rápido? Prueba este nuevo método milagroso sin dietas.
+- etiqueta_usuario: spam
+  mensaje: Tu cuenta bancaria ha sido suspendida. Haz clic aquí para restaurarla.
+- etiqueta_usuario: no spam
+  mensaje: Gracias por tu ayuda con el proyecto de la semana pasada, realmente lo
+    aprecio.
+- etiqueta_usuario: no spam
+  mensaje: Nos vemos el lunes para la presentación. No olvides traer los documentos.
+- etiqueta_usuario: no spam
+  mensaje: ¡Feliz cumpleaños! Espero que tengas un día increíble lleno de alegría.
+- etiqueta_usuario: no spam
+  mensaje: Hola, ¿podemos hablar sobre el informe del proyecto esta tarde?
+- etiqueta_usuario: no spam
+  mensaje: ¿Te gustaría reunirte este fin de semana para revisar el trabajo pendiente?
+- etiqueta_usuario: no spam
+  mensaje: Recibí tu correo y estoy revisando los archivos que me enviaste.
+- etiqueta_usuario: no spam
+  mensaje: Nos vemos mañana en la cafetería para hablar sobre la propuesta del cliente.
+- etiqueta_usuario: no spam
+  mensaje: Estoy planeando un viaje y quería saber si puedes acompañarme.
+- etiqueta_usuario: no spam
+  mensaje: ¿Te gustaría unirte al equipo para trabajar en el nuevo proyecto de marketing?
+- etiqueta_usuario: no spam
+  mensaje: La cena de despedida de María es este jueves. ¿Te gustaría asistir?
