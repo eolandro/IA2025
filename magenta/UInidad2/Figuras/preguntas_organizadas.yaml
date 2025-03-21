@@ -1,0 +1,33 @@
+Figuras:
+- Círculo
+- Elipse
+- Triángulo Equilátero
+- Triángulo Isósceles
+- Triángulo Rectángulo
+- Triángulo Escaleno
+- Cuadrado
+- Rombo
+- Rectángulo
+- Trapecio
+- Trapezoide
+- Pentágono
+- Hexágono
+- Decágono
+Preguntas:
+  '0':
+  - Selecciona una opción (1. Redonda / 2. Alargada)
+  '10':
+  - ¿Tiene todos sus lados iguales? (1. Sí / 2. No)
+  '3':
+  - ¿Los tres lados son iguales? (1. Sí / 2. No)
+  - ¿Al menos dos lados son iguales? (1. Sí / 2. No)
+  - ¿Tiene un ángulo de 90°? (1. Sí / 2. No)
+  '4':
+  - ¿Tiene todos sus lados iguales? (1. Sí / 2. No)
+  - ¿Sus ángulos son todos rectos (90°)? (1. Sí / 2. No)
+  - ¿Tiene todos sus ángulos rectos? (1. Sí / 2. No)
+  - ¿Tiene un par de lados paralelos? (1. Sí / 2. No)
+  '5':
+  - ¿Tiene todos sus lados iguales? (1. Sí / 2. No)
+  '6':
+  - ¿Tiene todos sus lados iguales? (1. Sí / 2. No)
