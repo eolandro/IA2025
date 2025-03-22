@@ -1,0 +1,110 @@
+Cachondote:
+  Gris: 1
+  Pico: 0
+  Alas: 0
+  Bigotes: 0
+  Colmillos: 1
+  Sociable: 0
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 0
+Pinguino:
+  Gris: 0
+  Pico: 1
+  Alas: 1
+  Bigotes: 0
+  Colmillos: 0
+  Sociable: 1
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 0
+Aguila:
+  Gris: 0
+  Pico: 1
+  Alas: 1
+  Bigotes: 0
+  Colmillos: 0
+  Sociable: 0
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 0
+Licaon:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 1
+  Sociable: 1
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 1
+Perro:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 1
+  Sociable: 1
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 1
+Panda:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 1
+  Sociable: 0
+  Herbivoro: 1
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 1
+Gato:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 1
+  Sociable: 0
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre:
+Capibara:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 0
+  Sociable: 1
+  Herbivoro: 1
+  Insectivoro: 0
+  Branqueas: 0
+  Terrestre: 1
+Axolote:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 1
+  Colmillos: 0
+  Sociable: 0
+  Herbivoro: 0
+  Insectivoro: 0
+  Branqueas: 1
+  Terrestre: 0
+Camaleon:
+  Gris: 0
+  Pico: 0
+  Alas: 0
+  Bigotes: 0
+  Colmillos: 0
+  Sociable: 0
+  Herbivoro: 0
+  Insectivoro: 1
+  Branqueas: 0
+  Terrestre: 1
