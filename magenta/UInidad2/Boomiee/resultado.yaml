@@ -1,0 +1,19 @@
+movimientos:
+- posicion: E1
+  estado: seguro
+  probabilidad de explotar: 2.50%
+- posicion: E1
+  estado: seguro
+  probabilidad de explotar: 36.00%
+- posicion: E3
+  estado: seguro
+  probabilidad de explotar: 69.50%
+- posicion: C1
+  estado: bomba
+  probabilidad de explotar: 100.00%
+- posicion: A1
+  estado: bomba
+  probabilidad de explotar: 100.00%
+- posicion: C1
+  estado: bomba
+  probabilidad de explotar: 100.00%
