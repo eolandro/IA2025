@@ -1,0 +1,44 @@
+{
+  "messages": [
+    {
+      "correo": "¡Fortuna instantánea! Cliquea aquí para recibir tu premio millonario sin esfuerzo.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "¿Podrías revisar el borrador del informe y enviarme tus comentarios antes del viernes?",
+      "categoria": "normal"
+    },
+    {
+      "correo": "Oferta exclusiva: Viaje gratis al Caribe si respondes esta encuesta en los próximos 5 minutos.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "La conferencia de marketing ha sido reprogramada para el próximo martes a las 3 PM.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "Alerta de seguridad: Tu cuenta ha sido comprometida. Accede inmediatamente para restaurarla.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "Te envié una invitación para el evento de networking. Por favor confirma tu asistencia.",
+      "categoria": "normal"
+    },
+    {
+      "correo": "¡Dinero rápido garantizado! Solo completa estos 3 pasos y triunfa financieramente.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "El equipo de soporte técnico resolverá el problema en tu cuenta durante las próximas horas.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "Eres el ganador de un premio millonario. Responde ahora mismo para recibirlo.",
+      "categoria": "spam"
+    },
+    {
+      "correo": "Recordatorio: La fecha límite para enviar la propuesta es este miércoles al mediodía.",
+      "categoria": "normal"
+    }
+  ]
+}
