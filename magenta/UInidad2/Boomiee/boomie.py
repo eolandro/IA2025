@@ -41,7 +41,7 @@ estado = "bomba" if t[fila][col] == 1 else "seguro"
 resultados["movimientos"].append({
     "posicion": f"{fila}{col}",
     "estado": estado,
-    "prob_res": f"{prob_exp:.2f}%"})
+    "probabilidad de explotar": f"{prob_exp:.2f}%"})
 
 resultado(resultado_file, resultados)
 
