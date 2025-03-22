@@ -1,78 +1,71 @@
 from ruamel.yaml import YAML
 
-def cargar_datos(archivo):
-    yaml = YAML(typ='safe')
-    with open(archivo, 'r', encoding='utf-8') as f:
-        return yaml.load(f)
+class Nodo:
+    def __init__(self, pregunta, respuestas):
+        self.pregunta = pregunta
+        self.respuestas = respuestas  # Lista de opciones posibles
+        self.hijos = {}               # Diccionario {respuesta: Nodo o str}
 
-def inicializar_condiciones():
-    return [
-        # Pregunta 0: ¿Tiene bordes redondos?
-        lambda fig: fig in {'círculo', 'óvalo'},
-        # Pregunta 1: ¿Es como una pelota?
-        lambda fig: fig == 'círculo',
-        # Pregunta 2: ¿Tiene 3 lados?
-        lambda fig: fig.startswith('triángulo'),
-        # Pregunta 3: ¿Tiene 4 lados?
-        lambda fig: fig in {'cuadrado', 'rectángulo', 'rombo', 'trapecio', 'paralelogramo'},
-        # Pregunta 4: ¿Tiene 6 lados?
-        lambda fig: fig == 'hexágono',
-        # Pregunta 5: ¿Tiene 10 lados?
-        lambda fig: fig == 'decágono',
-        # Pregunta 6: ¿Todos los lados son iguales?
-        lambda fig: fig in {'triángulo equilátero', 'cuadrado', 'rombo'},
-        # Pregunta 7: ¿Unir dos forma cuadrado/rectángulo?
-        lambda fig: fig == 'triángulo rectángulo',
-        # Pregunta 8: ¿Solo dos lados iguales?
-        lambda fig: fig == 'triángulo isósceles',
-        # Pregunta 9: ¿Dos pares de lados iguales?
-        lambda fig: fig in {'rectángulo', 'paralelogramo'},  # Corregido para incluir ambos
-        # Pregunta 10: ¿Parece diamante/cometa?
-        lambda fig: fig == 'rombo',
-        # Pregunta 11: ¿Está inclinada?
-        lambda fig: fig == 'paralelogramo'  # Pregunta clave para diferenciar
-    ]
+def construir_arbol(data):
+    figuras_validas = set(data['figuras'])
+    
+    def parsear_nodo(nodo_id):
+        contenido = data[nodo_id]
+        
+        if 'figura' in contenido:
+            # Nodo terminal (figura)
+            figura = contenido['figura']
+            if figura not in figuras_validas:
+                raise ValueError(f"Figura no reconocida: {figura}")
+            return figura
+        
+        # Nodo de pregunta
+        pregunta = contenido['pregunta']
+        respuestas = list(contenido['respuestas'].keys())
+        nodo = Nodo(pregunta, respuestas)
+        
+        for respuesta, hijo_id in contenido['respuestas'].items():
+            nodo.hijos[respuesta] = parsear_nodo(hijo_id)
+        
+        return nodo
+    
+    return parsear_nodo('A')
 
-def obtener_respuesta(pregunta):
+def obtener_respuesta(pregunta, opciones):
+    print(f"\n{pregunta}")
+    for i, opcion in enumerate(opciones):
+        print(f"{chr(97 + i)}) {opcion}")
+    
     while True:
-        respuesta = input(f"{pregunta} (sí/no): ").strip().lower()
-        if respuesta in ('sí', 'si', 's'):
-            return True
-        elif respuesta in ('no', 'n'):
-            return False
-        else:
-            print("Por favor, responde 'sí' o 'no'.")
+        eleccion = input("Elige una opción (a, b, c...): ").lower()
+        indice = ord(eleccion) - 97
+        
+        if 0 <= indice < len(opciones):
+            return opciones[indice]
+        print("Opción inválida. Intenta de nuevo.")
+
+def recorrer_arbol(nodo_actual):
+    if isinstance(nodo_actual, str):
+        return nodo_actual
+    
+    respuesta = obtener_respuesta(nodo_actual.pregunta, nodo_actual.respuestas)
+    
+    if respuesta not in nodo_actual.hijos:
+        print("Respuesta no reconocida. Intenta de nuevo.")
+        return recorrer_arbol(nodo_actual)
+    
+    return recorrer_arbol(nodo_actual.hijos[respuesta])
 
 def main():
-    datos = cargar_datos('preguntas.yaml')
-    figuras = datos['figuras']
-    preguntas = datos['preguntas']
-    condiciones = inicializar_condiciones()
+    yaml = YAML(typ='safe')
+    with open('grafo_figs.yaml', 'r', encoding='utf-8') as f:
+        datos = yaml.load(f)
     
-    candidatos = figuras.copy()
+    print("Figuras disponibles:", ", ".join(datos['figuras']), "\n")
     
-    for i, (pregunta, condicion) in enumerate(zip(preguntas, condiciones)):
-        if len(candidatos) <= 1:
-            break  # Si ya hay una sola opción, terminar
-        
-        posibles_yes = [fig for fig in candidatos if condicion(fig)]
-        posibles_no = [fig for fig in candidatos if not condicion(fig)]
-        
-        if not posibles_yes or not posibles_no:
-            continue  # Pregunta no útil
-        
-        respuesta = obtener_respuesta(pregunta)
-        candidatos = posibles_yes if respuesta else posibles_no
-    
-    # Verificar si quedan dudas entre rectángulo y paralelogramo
-    if len(candidatos) == 2 and {'rectángulo', 'paralelogramo'}.issubset(candidatos):
-        respuesta = obtener_respuesta("¿La figura está inclinada?")
-        candidatos = ['paralelogramo'] if respuesta else ['rectángulo']
-    
-    if len(candidatos) == 1:
-        print(f"¡La figura que estás pensando es un {candidatos[0]}!")
-    else:
-        print("No pude adivinar la figura. ¿Podrías decirme cuál era?")
+    arbol = construir_arbol(datos)
+    resultado = recorrer_arbol(arbol)
+    print(f"\n¡Tu figura es un {resultado}!")
 
 if __name__ == "__main__":
     main()

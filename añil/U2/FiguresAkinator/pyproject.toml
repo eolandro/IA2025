@@ -2,7 +2,7 @@
 name = "figuresakinator"
 version = "0.1.0"
 description = ""
-authors = ["none"]
+authors = ["luis"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

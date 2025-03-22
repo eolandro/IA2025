@@ -1,0 +1,97 @@
+figuras:
+  - círculo
+  - óvalo
+  - triángulo equilátero
+  - triángulo isósceles
+  - triángulo rectángulo
+  - triángulo obtusángulo
+  - cuadrado
+  - rectángulo
+  - rombo
+  - trapecio
+  - paralelogramo
+  - pentágono
+  - hexágono
+  - decágono
+
+A:
+  pregunta: "¿La figura tiene bordes redondos?"
+  respuestas:
+    "si": AA
+    "no": AB
+
+AA:
+  pregunta: "¿La figura es como una pelota?"
+  respuestas:
+    "si": AAA
+    "no": AAB
+
+AAA:
+  figura: "círculo"
+
+AAB:
+  figura: "óvalo"
+
+AB:
+  pregunta: "¿Cuantos lados tiene la figura?"
+  respuestas:
+    "3": ABA
+    "4": ABB
+    "6": ABC
+    "10": ABD
+
+ABA:
+  pregunta: "¿Todos los lados de la figura son iguales?"
+  respuestas:
+    "si": ABAA
+    "no": ABAB
+
+ABAA:
+  figura: "triángulo equilátero"
+
+ABAB:
+  pregunta: "¿Uniendo dos de tus figuras se obtiene un cuadrado o rectángulo?"
+  respuestas:
+    "si": ABABA
+    "no": ABABB
+
+ABABA:
+  figura: "triángulo rectángulo"
+
+ABABB:
+  pregunta: "¿La figura tiene solo dos lados iguales y uno distinto?"
+  respuestas:
+    "si": ABABBA
+    "no": ABABBB
+
+ABABBA:
+  figura: "triángulo isósceles"
+
+ABABBB:
+  figura: "triángulo obtusángulo"
+
+ABB:
+  pregunta: "¿Tu figura tiene mayor parecido a un ... ?"
+  respuestas:
+    "Diamante": ABBA
+    "Un Rectángulo inclinado": ABBB
+    "Una cuadrado muy largo": ABBC
+    "ninguna de las anteriores": ABBD
+
+ABBA:
+  figura: "rombo"
+
+ABBB:
+  figura: "paralelogramo"
+
+ABBC:
+  figura: "rectángulo"
+
+ABBD:
+  figura: "trapecio"
+
+ABC:
+  figura: "hexágono"
+
+ABD:
+  figura: "decágono"
