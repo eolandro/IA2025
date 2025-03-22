@@ -1,0 +1,16 @@
+probabilidades:
+  rápido: 0.2
+  rechazar: 0.0667
+  sido: 0.1333
+  ganado: 0.0667
+  perder: 0.0667
+  limitado: 0.1333
+  seleccionado: 0.0667
+  hogar: 0.0667
+  empezar: 0.0667
+  amorosa: 0.0667
+  milagroso: 0.0667
+  pasar: 0.0667
+  trabajar: 0.0667
+  cambiar: 0.0667
+  vivir: 0.0667
