@@ -1,0 +1,26 @@
+z:
+  - zz
+  - zy
+  - zx
+  - zw
+zz:
+  - zzz
+  - zzy
+zy:
+  - zyz
+  - zyy
+zx:
+  - zxz
+  - zxy
+zw:
+  - zwz
+  - zwy
+
+zzy:
+  - zzyz
+
+zxz:
+  - zxzz
+
+zwy:
+  - zwyz
