@@ -51,9 +51,9 @@ def main():
     f.close()
     tree = tree["branches"]
     
-    # evaluation()
-    recorrido = pp("Z","ZX")
-    print (recorrido)
+    evaluation()
+    # recorrido = pp("Z","ZX")
+    # print (recorrido)
 
 if __name__ == "__main__":
     main()
