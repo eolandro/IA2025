@@ -9,41 +9,43 @@ def mifuncion(lista):
     return random.choice(lista)
 
 def cargar_grafo_basico():
-    with open('grafo.yaml') as f:
-        grafo_data = yaml.safe_load(f) or {}
-    
-    grafo = {}
-    for nodo in grafo_data['nodos']:
-        grafo[nodo] = []
-    
-    for arista in grafo_data['aristas']:
-        nodo1 = arista['nodo1']
-        nodo2 = arista['nodo2']
-        grafo[nodo1].append(nodo2)
-    
-    return grafo
+    """Carga el grafo básico sin pesos para BFS/DFS"""
+    try:
+        with open('grafo.yaml') as f:
+            grafo_data = yaml.safe_load(f) or {}
+        
+        grafo = {nodo: [] for nodo in grafo_data.get('nodos', [])}
+        
+        for arista in grafo_data.get('aristas', []):
+            grafo[arista['nodo1']].append(arista['nodo2'])
+        
+        return grafo
+    except FileNotFoundError:
+        print("Error: Archivo grafo.yaml no encontrado")
+        return {}
 
 def cargar_grafo_colina():
-    with open('grafo_colina.yaml') as f:
-        grafo_data = yaml.safe_load(f) or {}
-    
-    grafo = {}
-    for nodo in grafo_data['nodos']:
-        grafo[nodo] = []
-    
-    for arista in grafo_data['aristas']:
-        nodo1 = arista['nodo1']
-        nodo2 = arista['nodo2']
-        peso = arista['peso']
-        grafo[nodo1].append((nodo2, peso))
-    
-    return grafo
+    """Carga el grafo con pesos para Hill Climbing"""
+    try:
+        with open('grafo_colina.yaml') as f:
+            grafo_data = yaml.safe_load(f) or {}
+        
+        grafo = {nodo: [] for nodo in grafo_data.get('nodos', [])}
+        
+        for arista in grafo_data.get('aristas', []):
+            grafo[arista['nodo1']].append((arista['nodo2'], arista['peso']))
+        
+        return grafo
+    except FileNotFoundError:
+        print("Error: Archivo grafo_colina.yaml no encontrado")
+        return {}
 
 def buscar_camino_A(inicio, objetivo):
+    """Búsqueda por anchura (BFS)"""
     grafo = cargar_grafo_basico()
     
-    if not all(n in grafo for n in (inicio, objetivo)):
-        return f"Error: Nodo(s) no existente(s) en el grafo"
+    if not grafo or not all(n in grafo for n in (inicio, objetivo)):
+        return {'mensaje': "Error: Nodo(s) no existente(s) en el grafo"}
     
     cola = deque([[inicio]])
     visitados = {inicio}
@@ -56,8 +58,9 @@ def buscar_camino_A(inicio, objetivo):
         
         if nodo == objetivo:
             return {
-                'camino_encontrado': " -> ".join(camino),
-                'caminos_explorados': [" -> ".join(p) for p in caminos_explorados]
+                'camino_encontrado': " → ".join(camino),
+                'caminos_explorados': [" → ".join(p) for p in caminos_explorados],
+                'longitud': len(camino)-1
             }
         
         for vecino in grafo.get(nodo, []):
@@ -67,14 +70,15 @@ def buscar_camino_A(inicio, objetivo):
     
     return {
         'mensaje': f"No hay camino de {inicio} a {objetivo}",
-        'caminos_explorados': [" -> ".join(p) for p in caminos_explorados]
+        'caminos_explorados': [" → ".join(p) for p in caminos_explorados]
     }
 
 def buscar_camino_P(inicio, objetivo):
+    """Búsqueda por profundidad (DFS)"""
     grafo = cargar_grafo_basico()
     
-    if not all(n in grafo for n in (inicio, objetivo)):
-        return f"Error: Nodo(s) no existente(s) en el grafo"
+    if not grafo or not all(n in grafo for n in (inicio, objetivo)):
+        return {'mensaje': "Error: Nodo(s) no existente(s) en el grafo"}
     
     pila = [[inicio]]
     visitados = set()
@@ -87,8 +91,9 @@ def buscar_camino_P(inicio, objetivo):
         
         if nodo == objetivo:
             return {
-                'camino_encontrado': " -> ".join(camino),
-                'caminos_explorados': [" -> ".join(p) for p in caminos_explorados]
+                'camino_encontrado': " → ".join(camino),
+                'caminos_explorados': [" → ".join(p) for p in caminos_explorados],
+                'longitud': len(camino)-1
             }
         
         if nodo not in visitados:
@@ -99,22 +104,23 @@ def buscar_camino_P(inicio, objetivo):
     
     return {
         'mensaje': f"No hay camino de {inicio} a {objetivo}",
-        'caminos_explorados': [" -> ".join(p) for p in caminos_explorados]
+        'caminos_explorados': [" → ".join(p) for p in caminos_explorados]
     }
 
-def buscar_camino_HC(inicio, objetivo, max_retrocesos=3):
+def buscar_camino_HC(inicio, objetivo, max_retrocesos=10):
+    """Hill Climbing con heurística mejorada"""
     grafo = cargar_grafo_colina()
     
-    if not all(n in grafo for n in (inicio, objetivo)):
-        return f"Error: Nodo(s) no existente(s) en el grafo"
+    if not grafo or not all(n in grafo for n in (inicio, objetivo)):
+        return {'mensaje': "Error: Nodo(s) no existente(s) en el grafo"}
     
-    # Heurística basada en distancias estimadas al objetivo
+    # Heurística optimizada para el grafo_colina.yaml
     heuristicas = {
-        'A': 4, 'B': 5, 'C': 3, 'D': 6, 'E': 4, 
-        'F': 5, 'G': 2, 'H': 3, 'I': 1, 'Z': 0
+        'A': 6, 'B': 5, 'C': 4, 'D': 3, 'E': 3, 
+        'F': 2, 'G': 1, 'H': 1, 'I': 0, 'Z': 5
     }
     
-    heap = [(0 + heuristicas.get(inicio, 0), 0, inicio, [inicio])]
+    heap = [(heuristicas.get(inicio, 0), 0, inicio, [inicio])]  # (heurística + costo, costo, nodo, camino)
     visitados = {}
     retrocesos = 0
     
@@ -123,8 +129,10 @@ def buscar_camino_HC(inicio, objetivo, max_retrocesos=3):
         
         if nodo_actual == objetivo:
             return {
-                'camino_encontrado': " -> ".join(camino_actual),
+                'camino_encontrado': " → ".join(camino_actual),
                 'costo_total': costo_actual,
+                'longitud': len(camino_actual)-1,
+                'retrocesos': retrocesos,
                 'mensaje': f"Camino encontrado con Hill Climbing (retrocesos: {retrocesos})"
             }
         
@@ -147,42 +155,52 @@ def buscar_camino_HC(inicio, objetivo, max_retrocesos=3):
     
     return {
         'mensaje': f"No se encontró camino después de {max_retrocesos} retrocesos",
+        'retrocesos': retrocesos,
         'caminos_explorados': []
     }
 
 def mostrar_menu():
-    print("\nComandos disponibles:")
-    print("1. mifuncion([1,2,3]) - Selección aleatoria")
-    print("2. buscar_camino_A('A', 'B') - Búsqueda por anchura (BFS)")
-    print("3. buscar_camino_P('A', 'B') - Búsqueda por profundidad (DFS)")
-    print("4. buscar_camino_HC('A', 'B') - Hill Climbing con retrocesos")
-    print("5. salir (q)")
+    """Muestra el menú de opciones"""
+    print("\n╔═════════════════════════════════╗")
+    print("║      CONSOLA DE BÚSQUEDA        ║")
+    print("╠═════════════════════════════════╣")
+    print("║ 1. mifuncion([1,2,3])           ║")
+    print("║ 2. buscar_camino_A('A', 'B')    ║")
+    print("║ 3. buscar_camino_P('A', 'B')    ║")
+    print("║ 4. buscar_camino_HC('A', 'B')   ║")
+    print("║ 5. salir (q)                    ║")
+    print("╚═════════════════════════════════╝")
 
 def mostrar_resultado(resultado):
+    """Muestra los resultados de forma organizada"""
     if isinstance(resultado, dict):
-        if 'caminos_explorados' in resultado and resultado['caminos_explorados']:
-            print("\nCaminos explorados:")
-            for i, camino in enumerate(resultado['caminos_explorados'], 1):
-                print(f"{i}. {camino}")
-        
         if 'camino_encontrado' in resultado:
-            print("\nCamino encontrado:", resultado['camino_encontrado'])
+            print("═"*40)
+            print(f" CAMINO ENCONTRADO: {resultado['camino_encontrado']}")
             if 'costo_total' in resultado:
-                print("Costo total:", resultado['costo_total'])
-        else:
-            print("\nResultado:", resultado['mensaje'])
+                print(f" Costo total: {resultado['costo_total']}")
+            if 'longitud' in resultado:
+                print(f" Longitud: {resultado['longitud']} pasos")
+            if 'retrocesos' in resultado:
+                print(f" Retrocesos: {resultado['retrocesos']}")
+            print("═"*40)
+        
+        if 'caminos_explorados' in resultado and resultado['caminos_explorados']:
+            print("\nÚltimos 5 caminos explorados:")
+            for i, camino in enumerate(resultado['caminos_explorados'][-5:], 1):
+                print(f" {i}. {camino}")
+        
+        if 'mensaje' in resultado:
+            print(f"\n{resultado['mensaje']}")
     else:
         print("\nResultado:", resultado)
 
 def main():
-    print("Consola Interactiva de Búsqueda en Grafos")
-    print("----------------------------------------")
-    print("BFS/DFS usan grafo.yaml")
-    print("Hill Climbing usa grafo_colina.yaml")
     
     while True:
         mostrar_menu()
-        cmd = input("> ").strip()
+        cmd = input("\n>> ").strip()
+        print("\n")
         
         if cmd.lower() in ("q", "quit", "exit", "5"):
             break
@@ -191,7 +209,7 @@ def main():
             resultado = eval(cmd)
             mostrar_resultado(resultado)
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"\nError: {e}\nPor favor ingrese un comando válido.")
 
 if __name__ == "__main__":
     main()
