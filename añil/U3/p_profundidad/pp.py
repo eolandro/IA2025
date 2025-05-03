@@ -50,6 +50,8 @@ def main():
     tree = json.load(f)
     f.close()
     tree = tree["branches"]
+    print("\n--- Algoritmo primero profundidad ---")
+    print(" formato: pp(inicio,fin)\n")
     
     evaluation()
     # recorrido = pp("Z","ZX")

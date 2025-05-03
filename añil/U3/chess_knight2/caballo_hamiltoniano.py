@@ -7,7 +7,7 @@ result_path = [[0 for _ in range(8)] for _ in range(8)]
 with open("hamiltonian_loop.json") as f:
     path = json.load(f)
 
-position = input("\nPosicion inicial >" ) 
+position = input("\nPosicion inicial  (formato x,y;  ej: 0,1)>" ) 
 # position = "0,1"
 
 #inicio de procesamiento

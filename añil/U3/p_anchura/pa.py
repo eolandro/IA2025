@@ -55,6 +55,9 @@ def main():
     f.close()
     tree = tree["branches"]
     
+    print("\n--- Algoritmo primero anchura ---")
+    print(" formato: pa(inicio,fin)\n")
+
     evaluation()
     # recorrido = pa("Z","ZZY")
     # print(recorrido)

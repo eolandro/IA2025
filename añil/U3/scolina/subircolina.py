@@ -52,6 +52,9 @@ def evaluation():
             pass
 
 def main():
+    print("--- Algoritmo subircolina (camino mas corto)---")
+    print(" formato: subircolina(inicio, fin)")
+
     evaluation()
     # recorrido = subircolina("A","Z")
     # print (recorrido)
