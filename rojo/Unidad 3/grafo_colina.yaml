@@ -1,0 +1,97 @@
+nodos:
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
+  - H
+  - I
+  - Z
+
+aristas:
+  - nodo1: A
+    nodo2: B
+    peso: 2
+  - nodo1: A
+    nodo2: D
+    peso: 7
+  - nodo1: A
+    nodo2: Z
+    peso: 4
+  - nodo1: A
+    nodo2: C
+    peso: 1
+  - nodo1: B
+    nodo2: A
+    peso: 2
+  - nodo1: B
+    nodo2: D
+    peso: 6
+  - nodo1: C
+    nodo2: A
+    peso: 1
+  - nodo1: C
+    nodo2: Z
+    peso: 1
+  - nodo1: C
+    nodo2: E
+    peso: 3
+  - nodo1: Z
+    nodo2: A
+    peso: 4
+  - nodo1: Z
+    nodo2: C
+    peso: 1
+  - nodo1: D
+    nodo2: B
+    peso: 6
+  - nodo1: D
+    nodo2: A
+    peso: 7
+  - nodo1: D
+    nodo2: E
+    peso: 5
+  - nodo1: D
+    nodo2: F
+    peso: 2
+  - nodo1: E
+    nodo2: C
+    peso: 3
+  - nodo1: E
+    nodo2: D
+    peso: 5
+  - nodo1: E
+    nodo2: F
+    peso: 1
+  - nodo1: F
+    nodo2: D
+    peso: 2
+  - nodo1: F
+    nodo2: E
+    peso: 1
+  - nodo1: F
+    nodo2: H
+    peso: 2
+  - nodo1: F
+    nodo2: I
+    peso: 10
+  - nodo1: H
+    nodo2: F
+    peso: 2
+  - nodo1: H
+    nodo2: G
+    peso: 5
+  - nodo1: G
+    nodo2: H
+    peso: 5
+  - nodo1: G
+    nodo2: I
+    peso: 6
+  - nodo1: I
+    nodo2: G
+    peso: 6
+  - nodo1: I
+    nodo2: F
+    peso: 10

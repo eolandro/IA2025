@@ -1,0 +1,20 @@
+{
+  "branches": {
+    "Z": { "children": ["ZZ", "ZY", "ZX", "ZW"] },
+    "ZZ": { "children": ["ZZZ", "ZZY"] },
+    "ZY": { "children": ["ZYZ", "ZYY"] },
+    "ZX": { "children": ["ZXZ", "ZXY"] },
+    "ZW": { "children": ["ZWZ", "ZWY"] },
+    "ZZZ": { "children": [] },
+    "ZZY": { "children": ["ZZYZ"] },
+    "ZYZ": { "children": [] },
+    "ZYY": { "children": [] },
+    "ZXZ": { "children": ["ZXZZ"] },
+    "ZXY": { "children": [] },
+    "ZWZ": { "children": [] },
+    "ZWY": { "children": ["ZWYZ"] },
+    "ZZYZ": { "children": [] },
+    "ZXZZ": { "children": [] },
+    "ZWYZ": { "children": [] }
+  }
+}
