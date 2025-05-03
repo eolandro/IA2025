@@ -4,7 +4,7 @@ def imprimir_tablero(tablero):
     print()
 
 def es_seguro(tablero, fila, col):
-    # * Verificación a la zquierda
+    # * Verificación a la izquierda
     for i in range(col):
         if tablero[fila][i] == 1:
             return False
@@ -22,17 +22,27 @@ def es_seguro(tablero, fila, col):
     return True
 
 def resolver_4_reinas(tablero, col, answers):
+    print(f"\n⚊⚊✰ Procesando Columna {col + 1} ✰⚊⚊")
+    
     if col >= 4:
         copia_tablero = [fila[:] for fila in tablero]
         answers.append(copia_tablero)
+        print("¡Solución completa encontrada!")
+        imprimir_tablero(tablero)
         return True
     
     res = False
     for i in range(4):
         if es_seguro(tablero, i, col):
+            print(f"Colocando reina en fila {i + 1}, columna {col + 1}")
             tablero[i][col] = 1
+            imprimir_tablero(tablero)
+            
             res = resolver_4_reinas(tablero, col + 1, answers) or res
-            tablero[i][col] = 0  # ! Backtrack
+            
+            print(f"Retirando reina de fila {i + 1}, columna {col + 1}")
+            tablero[i][col] = 0
+            imprimir_tablero(tablero)
     
     return res
 
@@ -44,16 +54,16 @@ tablero = [
 ]
 answers = []
 
-print("\nEn el siguiente tablero:\n")
-for fila in tablero:
-    print(" ".join("♕" if celda == 1 else "□" for celda in fila))
-    
+print("\nTablero inicial:")
+imprimir_tablero(tablero)
+
 resolver_4_reinas(tablero, 0, answers)
 
+# * Imprimiendo las soluciones
 if not answers:
     print("No se encontraron soluciones.")
 else:
-    print(f"\nSe encontraron {len(answers)} soluciones para colocar las 4 reinas:\n")
+    print(f"\nSe encontraron {len(answers)} soluciones válidas:")
     for i, solucion in enumerate(answers, 1):
-        print(f"Solución {i}:")
+        print(f"\nSolución {i}:")
         imprimir_tablero(solucion)
