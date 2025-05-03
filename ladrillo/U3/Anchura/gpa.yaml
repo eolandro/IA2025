@@ -1,0 +1,17 @@
+[
+    ["Z","ZZ"],
+    ["Z","ZY"],
+    ["Z","ZX"],
+    ["Z","ZW"],
+    ["ZZ","ZZZ"],
+    ["ZZ","ZZY"],
+    ["ZY","ZYZ"],
+    ["ZY","ZYY"],
+    ["ZX","ZXZ"],
+    ["ZX","ZXY"],
+    ["ZW","ZWZ"],
+    ["ZW","ZWY"],
+    ["ZZY","ZZYZ"],
+    ["ZXZ","ZXZZ"],
+    ["ZWY","ZWYZ"]
+]
