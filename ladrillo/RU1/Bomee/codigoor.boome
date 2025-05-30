@@ -1,0 +1,18 @@
+mov r
+mov r
+je 0x01 0x01 SALIR
+mov r
+mov r
+mov r
+SALIR:
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
+mov d
